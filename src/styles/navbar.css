@@ -1,0 +1,106 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+nav {
+    background-color: transparent;
+    background-color: rgba(27, 27, 27, 0.63);
+    backdrop-filter: blur(10px) saturate(150%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+
+    .logo img {
+        height: 90px;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .tags{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        
+        a{text-decoration: none; color: var(--textColor); position: relative; transition: .3s ease-in;}
+        a:hover::before{
+            content: '';
+            position: absolute;
+            height: 2px;
+            width: 100%;
+            background-color: var(--mainColor);
+            color: var(--mainColor);
+            bottom: 0;
+        }
+    }
+}
+
+
+.responsive-menu{
+    display: none;
+
+    .resposive-menu-back{
+        display: none;
+        z-index: 10;
+        position: fixed;
+        background-color: rgba(36, 36, 36, 0.459);
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        justify-content: end;
+    }
+    .resposive-tag{
+        background-color: rgb(0, 0, 0);
+        backdrop-filter: blur(10px) saturate(150%) !important;
+        list-style: none;
+        width: 50%;
+        animation: fadeIn .2s ease-in;
+
+
+        li a{
+            color: var(--textColor);
+            display: inline-block;
+            padding: 1em !important;
+            width: 100%;
+            margin: 1em 0 !important;
+
+            &:hover{
+                color: var(--mainColor);
+            }
+        }
+    }
+
+    button {
+        border: 0;
+        background-color: transparent;
+        color: var(--textColor);
+        border: 1px solid var(--textColor);
+        padding: 10px !important;
+        border-radius: 10px;
+    }
+}
+.opened{
+    display: flex !important;
+}
+
+@media screen and (max-width: 750px){
+    nav .tags{
+        display: none;
+    }
+    .responsive-menu{
+        display: block;
+    }
+}
+
+@keyframes fadeIn {
+    from{
+        transform: translateX(-50000px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}

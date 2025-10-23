@@ -1,0 +1,10 @@
+.carousel-item {
+  height: 70vh; /* Altura fija para cada slide */
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* La imagen se adapta sin deformarse */
+  object-position: center; /* Centra la imagen */
+}
