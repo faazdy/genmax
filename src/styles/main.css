@@ -131,7 +131,7 @@ hr{
 }
 @media screen and (max-width: 800px) {
     .about{
-        width: 100%;
+        width: 100%; /*resposinsive*/
     }
 }
 
