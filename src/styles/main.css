@@ -47,7 +47,7 @@ main{max-width: 1300px; margin: 0 auto !important;}
     text-align: center;
     padding: 2em !important;
     width: 100%;
-    background-image: url('img/hero.png');
+    background-image: url('public/img/hero.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
