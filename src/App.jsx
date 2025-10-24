@@ -23,7 +23,7 @@ function App() {
             <h1 className='title'>Transforma tu vida.</h1>
             <h2>Únete a nuestra comunidad y alcanza tu máximo potencial.</h2>
           </div>
-          <a href="#about" className='button'>Descúbrelo</a>
+          <a href="https://www.skool.com/genmax/about" className='button'>Únete ahora</a>
         </section>
 
         
