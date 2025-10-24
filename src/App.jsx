@@ -40,7 +40,7 @@ function App() {
         </section>
 
         <section className="hero-video">
-          <video src="/video/presentVideo.mp4" autoPlay muted controls></video>
+          <video src="/video/presentvideo.mp4" autoPlay muted controls></video>
         </section>
         <hr />
         <section className="glow-up-changes">
