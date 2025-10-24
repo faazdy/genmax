@@ -42,7 +42,7 @@ function App() {
         <section className="hero-video">
           <video src="https://youtu.be/JYAdIxuQAsA" autoPlay muted controls></video>
         </section>
-        <hr />
+        <hr id='changes'/>
         <section className="glow-up-changes">
           <div className="section-title center">
             <h2 className="title">Grandes Cambios</h2>
