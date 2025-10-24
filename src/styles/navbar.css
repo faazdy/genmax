@@ -3,6 +3,21 @@ header{
     top: 0;
     z-index: 10000;
 }
+
+nav {
+    background-color: rgba(2, 2, 2, 0.856) !important;
+    backdrop-filter: blur(10px) saturate(150%);
+}
+nav img{
+    width: 50px !important;
+    margin: 0 1em !important;
+}
+
+nav ul li{
+    margin: 1em !important;
+}
+
+/*
 nav {
     background-color: transparent;
     background-color: rgba(27, 27, 27, 0.63);
@@ -14,7 +29,7 @@ nav {
 
 
     .logo img {
-        height: 90px;
+        height: 90px !important;
         width: auto;
         object-fit: cover;
     }
@@ -26,7 +41,7 @@ nav {
         justify-content: center;
         gap: 25px;
         
-        a{text-decoration: none; color: var(--textColor); position: relative; transition: .3s ease-in;}
+        a{text-decoration: none; color: var(--mainColor); position: relative; transition: .3s ease-in;}
         a:hover::before{
             content: '';
             position: absolute;
@@ -62,14 +77,16 @@ nav {
 
 
         li a{
-            color: var(--textColor);
+            color: var(--mainColor);
             display: inline-block;
             padding: 1em !important;
             width: 100%;
             margin: 1em 0 !important;
+            text-decoration: none;
 
             &:hover{
-                color: var(--mainColor);
+                color: var(--textColor);
+                background-color: var(--color2);
             }
         }
     }
@@ -77,8 +94,8 @@ nav {
     button {
         border: 0;
         background-color: transparent;
-        color: var(--textColor);
-        border: 1px solid var(--textColor);
+        color: var(--titleColor);
+        border: 1px solid var(--titleColor);
         padding: 10px !important;
         border-radius: 10px;
     }
@@ -104,3 +121,4 @@ nav {
         transform: translateX(0px);
     }
 }
+    */

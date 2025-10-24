@@ -10,7 +10,30 @@ function Nav() {
     }
     return (
         <header>
-            <nav>
+            <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#root">
+                        <img src="/img/logo2.png" alt="logo" />
+                    </a>
+                    <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#root">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.skool.com/genmax/about">Únete a GenMax</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://whatsapp.com/channel/0029Vaz8g791yT2FJmfwCf1D">Comunidad WhatsApp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            {/*<nav>
                 <div className="logo">
                     <a href="#root">
                         <img src="./img/logo2.png" alt="logo" />
@@ -33,7 +56,7 @@ function Nav() {
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav>*/}
         </header>
     )
 }
