@@ -297,9 +297,12 @@ hr{
 .glow-up-text{
     position: absolute;
     z-index: 100;
-    background-color: rgba(0, 0, 0, 0.712);
+    background-color: rgba(0, 0, 0, 0.87);
     backdrop-filter: blur(2px) saturate(150%);
     top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     height: 100%;
     width: 100%;
     display: flex;
