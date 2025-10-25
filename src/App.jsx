@@ -40,7 +40,14 @@ function App() {
         </section>
 
         <section className="hero-video">
-          <video src="https://youtu.be/JYAdIxuQAsA" autoPlay muted controls></video>
+          <iframe
+            src="https://www.loom.com/embed/538440eae18240fcbeee58e76745a548"
+            className='video'
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowFullScreen
+            title="Presentación GenMax"
+          ></iframe>
         </section>
         <hr id='changes'/>
         <section className="glow-up-changes">
