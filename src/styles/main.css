@@ -207,11 +207,12 @@ hr{
             width: 100%;
         }
     }
-    .modules .module-main:nth-child(even){
-        flex-direction: row;
+    .modules .module-main{
+        flex-direction: row-reverse !important;
+        align-items: start;
     }
     .modules .module-main img{
-        display: none;
+        display: block;
     }
 }
 .members{
