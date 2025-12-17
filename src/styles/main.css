@@ -18,7 +18,7 @@ body{
     margin: 0 auto !important;
     color: var(--textColor);
     transition: .2s ease;
-    display: none;
+    display: block;
 }
 main{max-width: 1300px; margin: 0 auto !important;}
 @media screen and (max-width: 1200px){
@@ -317,6 +317,9 @@ hr{
         width: 100%;
         max-width: 450px;
     }
+}
+.no-pay{
+    min-height: 100dvh;
 }
 
 footer{
