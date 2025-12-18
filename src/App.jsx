@@ -17,7 +17,7 @@ function App() {
     <>
       <section className="no-pay hero">
         <h1 className=''>Ops!</h1>
-        <h2 className='title'>Página temporalmente no disponible.</h2>
+        <h2 className='title'>Página no disponible temporalmente.</h2>
       </section>
     </>
   )
