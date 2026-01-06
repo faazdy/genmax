@@ -1,16 +1,44 @@
-# React + Vite
+# GenMax Academy – Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page oficial de **GenMax Academy**, una comunidad enfocada en la mejora personal, transformación facial y desarrollo de confianza, impulsada por creadores de contenido y una comunidad activa.
 
-Currently, two official plugins are available:
+El proyecto está desarrollado como una **Single Page Application (SPA)** moderna, optimizada para rendimiento, experiencia de usuario y despliegue en producción.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Tecnologías utilizadas
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- **React** – Librería principal para la interfaz
+- **Vite** – Bundler rápido para desarrollo y producción
+- **Bootstrap 5** – Sistema de estilos y componentes responsive
+- **Framer Motion** – Animaciones suaves y transiciones
+- **CSS personalizado** – Diseño visual y ajustes avanzados
+- **Vercel** – Plataforma de despliegue
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Características principales
+
+- Diseño moderno y responsive
+- Hero section con video de presentación
+- Sección de transformaciones *Antes / Después*
+- Carrusel interactivo con modal
+- Animaciones de entrada y hover
+- Scroll horizontal optimizado para UX
+- Integración con comunidades externas (WhatsApp / Skool)
+- Preparado para SEO básico (meta tags y estructura)
+
+---
+
+## Despliegue
+
+El proyecto está configurado para desplegarse fácilmente en Vercel:
+- SPA compatible con React Router
+- Assets servidos desde /public
+- Build optimizado con Vite
+
+--- 
+## Desarrolladores
+
+Desarrollado por Leonardo Rengifo
+Web Developer & Systems Engineer
