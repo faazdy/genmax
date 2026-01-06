@@ -145,7 +145,7 @@ function App() {
             <li><a href="#about">Acerca de GenMax</a></li>
           </ul>
         </div>
-      </footer>*/
+      </footer>
     </>
   )
 }
