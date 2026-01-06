@@ -130,7 +130,7 @@ function App() {
         <div className="logo">
           <img src="./img/logo2.png" alt="logo" />
           <p>GenMax Academy</p>
-          <p>© 2025 Todos los derechos reservados</p>
+          <p>© 2026 Todos los derechos reservados</p>
         </div>
         <div className="tags">
           <ul>
