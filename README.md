@@ -46,5 +46,5 @@ El proyecto está configurado para desplegarse fácilmente en Vercel:
 --- 
 ## Desarrolladores
 
-Desarrollado por Leonardo Rengifo
-Web Developer & Systems Engineer
+Desarrollado por **Leonardo Rengifo**.
+- Web Developer & Systems Engineer
