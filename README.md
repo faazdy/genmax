@@ -30,6 +30,12 @@ El proyecto está desarrollado como una **Single Page Application (SPA)** modern
 
 ---
 
+## Licencia
+
+Este proyecto es privado y su uso está limitado a fines acordados con GenMax Academy.
+
+---
+
 ## Despliegue
 
 El proyecto está configurado para desplegarse fácilmente en Vercel:
